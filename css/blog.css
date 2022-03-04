@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-header {
+  background-color:#2E948A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+.logo {
+    margin: 2% 5%;
+}
+.container-header nav{
+  text-align: right;
+  margin-right: 5%;
+}
+.navegacao-item{
+  display: inline;
+}
+.navegacao-item-link{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FDFDFD;
+    text-transform: uppercase;
+    margin: 10px 20px;
+}
+
+footer {
+  background-color:#2E948A;
+  padding: 1% 2%
+}
+.logo-fot {
+  margin: 3% 5%;
+}
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.container-footer nav{
+  text-align: left;
+  margin-right: 5%;
+}
+.nav-footer{
+  margin: 0;
+  padding: 0;
+  list-style: none  
+}
+.nav-footer-item-link{
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 25.9px;
+  margin: 10px 20px;
+}
+.botoes {
+  align-items: left;
+  text-align: left;
+}
+
+.button {
+  background-color: #2E948A;
+  color: #FFFFFF;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px;
+  border: 2px solid #FFFFFF;
+  border-radius: 62px;
+  padding: 10px 40px;
+  height: 40px;
+  width: 250px;
+}
+
+
+.banner{
+    display: flex;
+    align-content: center;
+    padding: 5%;
+}
+.banner div{
+    width: 50%;
+    margin: 6% 5% 0% 0;
+} 
+.banner div h1 {
+    color: #009688;
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.banner div p {
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+}
+
+.container-mae{
+    background-color: #E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    width: 40%;
+    height: 30%;
+    margin: 3%;
+}
+.box img{
+    width: 100%;
+    height: 40%;
+    cursor: pointer;
+}
+.box h2{
+    color: #FF4081;
+    font-size: 25px;
+} 
+.box p{
+    font-size: 14px;
+}
